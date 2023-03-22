@@ -13,8 +13,8 @@ const TAX_RATE = 0.2005;
 function payButtonClicked () {
  
   // Get the user input
-  let hoursWorked = parseFloat(document.getElementById('hoursWorked').value)
-  let hourlyRate = parseFloat(document.getElementById('hourlyRate').value)
+  let hoursWorked = parseFloat(document.getElementById('hours-worked').value)
+  let hourlyRate = parseFloat(document.getElementById('hourly-rate').value)
 
   // Perform mathematical equations
   let totalPay = hoursWorked * hourlyRate
