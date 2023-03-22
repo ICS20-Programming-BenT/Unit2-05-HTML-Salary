@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="Salary Program, with JavaScript">
+    <meta name="keywords" content="Immaculata, ICS2O">
+    <meta name="author" content="Ben Thomson">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Web page title -->
+    <title>Salary Program in JavaScript</title>
+  </head>
+  <body>
+    <!-- JavaScript link -->
+    <script src="./js/script.js"></script>
+
+    <!-- Web page heading -->
+    <h1>Salary Program with a JavaScript file</h1>
+
+    <!-- Body text -->
+    <p>
+      <!-- User input form -->
+      <h3>Please enter your salary information (the number of hours worked and your hourly rate):</h3>
+      <form action="javascript:payButtonClicked()">
+        <label for="hoursWorked">Number of Hours Worked:</label>
+        <input type="float" id="hoursWorked" placeholder="Hours Worked"><br><br>
+        <label for="hourlyRate">Hourly Rate: $</label>
+        <input type="float" id="hourlyRate" placeholder="Hourly Rate"><br><br>
+        <input type="submit" value="Pay">
+      </form>
+    </p>
+
+    <!-- Space for displaying user information -->
+    <div id="results">
+      <div id="total-earnings"></div>
+      <div id="tax-amount"></div>
+    </div>
+  </body>
+</html>

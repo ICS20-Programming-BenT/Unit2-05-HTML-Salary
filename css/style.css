@@ -1,0 +1,23 @@
+/* Created by: Ben Thomson
+* Created on: 03/21/2023
+* This CSS file defines the style for index.html
+* ICS2O-Unit2-05-HTML-Salary
+*/
+
+body {
+  background-color: rgb(154 140 152);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  color: #f2e9e4;
+}
+
+h1 {
+  background-color: hsl(240deg 27% 18%);
+  padding: 40px;
+  text-align: center;
+}
+
+form {
+  background-color: #4a4e69;
+  padding: 20px;
+}
